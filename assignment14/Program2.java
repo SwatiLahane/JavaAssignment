@@ -4,12 +4,12 @@ class Arithematic
 {
     public int ino;
     
-    public Arithematic(int A)
+    public Arithematic(int A) //constructor
     {
     	this.ino = A;
     	
     }
-    public boolean Voter()
+    public boolean Voter() //non static method
     {
        if(ino >= 18)
        {
@@ -24,14 +24,14 @@ class Arithematic
 
 public class Program2 
 {
-    public static void main(String arg[])
+    public static void main(String arg[]) //main method
     {
        Scanner sobj = new Scanner(System.in);
        
        System.out.println("Enter the Age :");
        int Age = sobj.nextInt();
        
-       Arithematic aobj = new Arithematic(Age);
+       Arithematic aobj = new Arithematic(Age); //object
        
        boolean bres = aobj.Voter();
        if(bres == true)
