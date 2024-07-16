@@ -10,9 +10,9 @@ public class AreaOfCircle
        int Radius = sobj.nextInt();
        double PI = 3.14;
        
-       double dResult = PI * Radius * Radius;
+       double fResult =  (PI * Radius * Radius);
        
-       System.out.println("Area of circle is :"+dResult);
+       System.out.println("Area of circle is :"+fResult);
        
    }
 }
