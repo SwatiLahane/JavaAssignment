@@ -8,11 +8,11 @@ public class AreaOfCircle
 	   Scanner sobj = new Scanner(System.in);
        System.out.println("Enter radius :");
        int Radius = sobj.nextInt();
-       float PI = 3.14f;
+       double PI = 3.14;
        
-       float fResult = PI * Radius * Radius;
+       double dResult = PI * Radius * Radius;
        
-       System.out.println("Area of circle is :"+fResult);
+       System.out.println("Area of circle is :"+dResult);
        
    }
 }
